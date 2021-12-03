@@ -6,6 +6,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomeComponent } from './home/home.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { AttractionsComponent } from './attractions/attractions.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AttractionsComponent } from './attractions/attractions.component';
     HomeComponent,
     ActivitiesComponent,
     AttractionsComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule
