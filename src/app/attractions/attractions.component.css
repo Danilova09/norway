@@ -1,0 +1,21 @@
+.cards-block {
+  padding-bottom: 100px;
+}
+
+.card {
+  margin: 10px;
+  background: rgba(75, 150, 190, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.read-more-btn {
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
