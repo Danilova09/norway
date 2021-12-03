@@ -1,5 +1,4 @@
 .main-block {
-  display: block;
   background: rgba(75, 150, 190, 0.2);
   height: 100vh;
   padding-top: 50px;
@@ -8,7 +7,6 @@
   display: block;
   margin: 70px auto auto auto;
   width: 700px;
-  padding-bottom: 100px;
 }
 
 .btn-log-in {
