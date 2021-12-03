@@ -1,0 +1,32 @@
+.home-block {
+  height: 100vh;
+  text-transform: uppercase;
+  color: #fff;
+  background: url("https://www.commonwealthfund.org/sites/default/files/styles/countries_hero_desktop/public/country_image_Norway.jpg?h=89acf671&itok=muwVkuoV") no-repeat center;
+  background-size: cover;
+}
+
+.home-block_title {
+  font-weight: 800;
+  font-size: 60px;
+  padding-top: 150px;
+}
+
+.home-block_desc {
+  font-weight: 700;
+}
+
+.btn-log-in {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  transition: all 250ms;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.btn-log-in:hover {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 13px -7px #000000, -11px 28px 27px 34px rgba(0, 0, 0, 0);
+}
