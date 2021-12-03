@@ -1,6 +1,5 @@
 .activities-block {
-  background: rgba(75, 150, 190, 0.5);
-  height: 100vh;
+  height: 100%;
 }
 
 .activities-block_img {
@@ -13,6 +12,18 @@
 
 .row {
   padding: 50px 0;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  margin: 40px 0;
+  background: rgba(75, 150, 190, 0.2);
+}
+
+.btn-read-more {
+  background: transparent;
+  border: 1px solid #1f1f1f;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
 }
 
 

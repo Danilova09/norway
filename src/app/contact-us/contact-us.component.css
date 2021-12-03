@@ -1,3 +1,9 @@
+.main-block {
+  display: block;
+  background: rgba(75, 150, 190, 0.2);
+  height: 100vh;
+  padding-top: 50px;
+}
 .form-block {
   display: block;
   margin: 70px auto auto auto;
@@ -10,7 +16,6 @@
   border-radius: 5px;
   padding: 10px 25px;
   transition: all 250ms;
-  margin-top: 50px;
   color: #000;
   border: none;
 }
