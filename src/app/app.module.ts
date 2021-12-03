@@ -8,6 +8,15 @@ import { ActivitiesComponent } from './activities/activities.component';
 import { AttractionsComponent } from './attractions/attractions.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NotFoundComponent } from './not-found.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'activities', component: ActivitiesComponent},
+  {path: 'attraction', component: AttractionsComponent},
+  {path: 'contact-us', component: ContactUsComponent},
+  {path: '**', component: NotFoundComponent},
+]
 
 @NgModule({
   declarations: [
@@ -20,7 +29,8 @@ import { NotFoundComponent } from './not-found.component';
     NotFoundComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]
